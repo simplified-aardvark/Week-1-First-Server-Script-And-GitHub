@@ -11,7 +11,7 @@ let my_server = my_http.createServer(
     } else if (my_request.url == "/usa-canada") {
       my_text = "It's Aluminum!";
     } else {
-      my_text = "What?";
+      my_text = "Who?";
     }
 
     my_response.writeHead(200, {"Content-Type": "text/plain"});
